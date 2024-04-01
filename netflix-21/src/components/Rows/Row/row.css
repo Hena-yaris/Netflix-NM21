@@ -1,0 +1,31 @@
+.row__poster {/*all about image*/
+	width: 100%;
+	object-fit: contain;/*bemnseth size wst objectu fit yaadrg dstort endayhon*/
+	max-height: 100px;
+	transition: transform 450ms;/*kes bel or zegy*/
+	margin-right: 10px;
+}
+.row__posters {
+	display: flex;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	padding: 20px;
+}
+.row__posters::-webkit-scrollbar {
+	display: none;
+    /*ketach yemitayewn scroll bar enditefaln yemnadergbet*/
+}
+.row__poster:hover {
+	transform: scale(1.08);
+    /*hover sidereg imaju weta weta endilln transform ke tansition gar new yemiseraw mnyahl koyto new yemiwetaw yemilewn yeminegren */
+}
+.row__posterLarge{
+    max-height: 250px;
+}
+.row__posterLarge:hover{
+    transform: scale(1.09);
+}
+.row{
+    margin-left: 20px;
+	color: white;
+}
